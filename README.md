@@ -1,16 +1,13 @@
 # recsys2019
 
-This is the code for the 1st place ACM Recsys competition.
-
-If you have any questions please write to pawel@[address of our company website]
-
 Team members
 =================
 
-- Paweł Jankiewicz (https://www.linkedin.com/in/pjankiewicz/)
-- Liudmyla Kyrashchuk (https://www.linkedin.com/in/liudmylakyrashchuk/)
-- Paweł Sienkowski (https://www.linkedin.com/in/pawel-sienkowski/)
-- Magdalena Wójcik (https://www.linkedin.com/in/claygirl/)
+- Cho. SY
+- Bae. YN
+- Oh. JS
+- Lee. HJ
+- Lee. JB
 
 Best single model
 =================
@@ -41,16 +38,6 @@ python select_features.py
 11. python model_submit.py (make test predictions)
 12. python make_blend.py (prepare submission file)
 
-Quick validation (1 million rows)
-----------------------
-
-1. cd data/
-2. ./download_data.sh
-3. cd ../../src/recsys/data_prep
-4. ./run_data_prep.sh
-5. cd ..
-6. cd data_generator; python generate_data_parallel_quick.py; cd - (pypy is good)
-7. python quick_validate.py
 
 Blend
 =====
